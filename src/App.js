@@ -10,6 +10,10 @@ function Square({ value, onSquareClick }) {
 
 function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
+    /*calculateWinner(squares) calls a function called calculateWinner and passes in an array called squares as an argument. This function likely checks if there is a winner in the current state of the game.
+    || is the logical OR operator, which returns true if either of its operands is true.
+    squares[i] checks if the square at index i has already been clicked. This is likely being used to prevent a player from clicking on the same square more than once.
+    If either calculateWinner(squares) or squares[i] is true, the function immediately returns without doing anything else. This is likely being used to prevent further actions from being taken if the game has already been won or if a square has already been clicked.*/
     if (calculateWinner(squares) || squares[i]) {
       return;
     }
