@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/indecision-app/static/css/main.74acce42.css",
-    "main.js": "/indecision-app/static/js/main.0fb6614a.js",
+    "main.js": "/indecision-app/static/js/main.b0f69cf9.js",
     "static/js/787.474c4261.chunk.js": "/indecision-app/static/js/787.474c4261.chunk.js",
+    "static/media/logo.svg": "/indecision-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/indecision-app/index.html",
     "main.74acce42.css.map": "/indecision-app/static/css/main.74acce42.css.map",
-    "main.0fb6614a.js.map": "/indecision-app/static/js/main.0fb6614a.js.map",
+    "main.b0f69cf9.js.map": "/indecision-app/static/js/main.b0f69cf9.js.map",
     "787.474c4261.chunk.js.map": "/indecision-app/static/js/787.474c4261.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74acce42.css",
-    "static/js/main.0fb6614a.js"
+    "static/js/main.b0f69cf9.js"
   ]
 }
