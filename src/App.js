@@ -9,8 +9,8 @@ export default function App(){
     <>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Game/>}/>
-        <Route path='/about' element={<About/>}/>
+        <Route path='/indecision' element={<Game/>}/>
+        <Route path='/indecision/about' element={<About/>}/>
       </Routes>
     </>
   );
